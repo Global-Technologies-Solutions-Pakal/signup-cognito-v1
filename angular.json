@@ -23,9 +23,15 @@
               "src/assets"
             ],
             "styles": [
+            "node_modules/bootstrap/dist/css/bootstrap-grid.css",
+             "node_modules/bootstrap/dist/css/bootstrap-reboot.css",
+             "node_modules/bootstrap/dist/css/bootstrap.css",
+             "node_modules/font-awesome/css/font-awesome.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -86,6 +92,8 @@
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
             "assets": [
+              "assets",
+             "img",
               "src/favicon.ico",
               "src/assets"
             ],
@@ -97,5 +105,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
